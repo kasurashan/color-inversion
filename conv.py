@@ -16,6 +16,8 @@ for i in range(1,300):
         break
 
 cnt = 40
+#이 부분은 이미지 반전이랑 상관 없음
+#회색인 영역 흰색으로 바꾸려고 넣은 것
 for img in imgs: 
     for i in range(1125):
         for j in range(2000):
